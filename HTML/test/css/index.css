@@ -1,0 +1,44 @@
+#top{
+	display: block;
+	color: #666666;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+#top .logo {
+		display: inline-block;
+		width: 200px;
+		height: 80px;
+		line-height: 80px;//垂直置中
+		margin: 0 auto;
+		text-align: center;
+	    font-size: 70px;
+	}
+
+	#header{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		background-color: rgba(40, 11, 69, 1.0);
+	     	}
+
+	#header .container{
+		display: inline-block;
+		max-width: 600px;
+		width: 100%;
+	}
+
+
+
+	#header .container a{
+		float: left;
+		display: inline-block;
+		width: calc(100%/6);
+		padding: 15px 0;
+		color: rgba(255, 255, 255, .7500);
+		text-decoration: none;//去掉底線
+	}
+
+	#header .container a:hover{
+		color: rgba(255, 255, 255, 1.0);;
+	}
